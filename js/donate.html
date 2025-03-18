@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Donate - Nirantara Foundation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    
+    <!-- Custom CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-image: url('https://source.unsplash.com/1920x600/?charity,donation');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            padding: 50px 15px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        section {
+            padding: 30px 15px;
+        }
+
+        .donation-options {
+            background-color: #f8f9fa;
+            padding: 30px 15px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .donation-buttons .btn {
+            margin: 5px;
+        }
+
+        .secure-payment {
+            font-size: 0.9rem;
+            color: gray;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .faq {
+            margin-top: 30px;
+        }
+
+        .testimonial-carousel {
+            margin-top: 50px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5rem;
+            }
+
+            header p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header>
+            <h1>Make a Difference Today</h1>
+            <p>Support our initiatives and help us create lasting change.</p>
+        </header>
+
+        <!-- Donation Options -->
+        <section class="donation-options">
+            <h2>Donation Options</h2>
+            <p>Select how you'd like to contribute:</p>
+            <div class="donation-buttons">
+                <button class="btn btn-primary">$10</button>
+                <button class="btn btn-primary">$25</button>
+                <button class="btn btn-primary">$50</button>
+                <button class="btn btn-primary">$100</button>
+                <button class="btn btn-primary">Custom Amount</button>
+            </div>
+            <div class="secure-payment mt-3">
+                <img src="https://source.unsplash.com/40x40/?lock,secure" alt="Secure Payment">
+                <span>Your payment is secure and encrypted.</span>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq">
+            <h3>Frequently Asked Questions</h3>
+            <div class="accordion" id="faqAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            How is my donation used?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Your donation supports projects like education, healthcare, and community development.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Is my donation tax-deductible?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Yes, all donations are tax-deductible to the extent allowed by law.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonial-carousel">
+            <h3>What Our Donors Say</h3>
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <p>"This foundation has made a huge difference in my community. I'm proud to support their work."</p>
+                        <small>- Alex R.</small>
+                    </div>
+                    <div class="carousel-item">
+                        <p>"Donating here is easy and impactful. I see the change happening every day."</p>
+                        <small>- Priya M.</small>
+                    </div>
+                    <div class="carousel-item">
+                        <p>"Knowing my donation goes to those who need it most makes all the difference."</p>
+                        <small>- Michael K.</small>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <a href="index.html" class="btn btn-light">Back to Home</a>
+            <p class="mt-3">© 2025 Nirantara Foundation. All Rights Reserved.</p>
+        </footer>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
